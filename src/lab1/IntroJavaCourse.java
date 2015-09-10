@@ -10,23 +10,14 @@ public class IntroJavaCourse extends ProgrammingClass {
     
     private String prerequisites;
 
-     public IntroJavaCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
+    public IntroJavaCourse(String courseName, String courseNumber) {
+        super(courseName, courseNumber);
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
+  
 
-    @Override
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
-    }
-
-    public double getCredits() {
-        return credits;
-    }
+   
+  
 
 
     public String getPrerequisites() {

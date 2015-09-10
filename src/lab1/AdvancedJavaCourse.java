@@ -11,9 +11,10 @@ import javax.swing.JOptionPane;
 public  class AdvancedJavaCourse extends ProgrammingClass {
    
 
+   private String prerequisites;
+
     public AdvancedJavaCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
+        super(courseName, courseNumber);
     }
 
     public String getCapitalizedCourseName() {
@@ -43,21 +44,11 @@ public  class AdvancedJavaCourse extends ProgrammingClass {
         this.setCredits(credits);
     }
 
-    @Override
-    public String getCourseName() {
-        return courseName;
-    }
+   
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
+  
+   
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
-    }
+   
     
 }
