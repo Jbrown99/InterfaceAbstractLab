@@ -13,7 +13,7 @@ public interface ProgrammingClasses {
     
     public String getCourseNumber();
     
-    public  void setCourseNumber(String courseNumber);
+    public void setCourseNumber(String courseNumber);
     
     public double getCredits();
     

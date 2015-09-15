@@ -23,7 +23,7 @@ public class IntroJavaCourse implements ProgrammingClasses {
         return courseNumber;
     }
 
-    public void setCourseNumber(String courseNumber) {
+    public final void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }
 
@@ -31,7 +31,7 @@ public class IntroJavaCourse implements ProgrammingClasses {
         return credits;
     }
 
-    public void setCredits(double credits) {
+    public final void setCredits(double credits) {
         this.credits = credits;
     }
 
@@ -39,7 +39,7 @@ public class IntroJavaCourse implements ProgrammingClasses {
         return prerequisites;
     }
 
-    public void setPrerequisites(String prerequisites) {
+    public final void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
     
