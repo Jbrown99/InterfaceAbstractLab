@@ -9,7 +9,7 @@ package lab2;
  *
  * @author joshuabrown
  */
-public interface ProgrammingClasses {
+public interface ProgrammingClass {
     
     public String getCourseNumber();
     
