@@ -6,7 +6,7 @@ package lab1;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse extends ProgrammingClass {
+public class IntroJavaCourse extends ProgrammingClasses {
     
     private String prerequisites;
 
@@ -14,7 +14,7 @@ public class IntroJavaCourse extends ProgrammingClass {
         super(courseName, courseNumber);
     }
 
-  
+   
 
    
   
