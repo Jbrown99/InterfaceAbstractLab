@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class AdvancedJavaCourse implements ProgrammingCourse {
+public class AdvancedJavaCourse implements ProgrammingClasses {
     private String courseName;
     private String courseNumber;
     private double credits;
