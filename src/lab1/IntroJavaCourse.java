@@ -24,7 +24,7 @@ public class IntroJavaCourse extends ProgrammingClasses {
         return prerequisites;
     }
 
-    public void setPrerequisites(String prerequisites) {
+    public final void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
 

@@ -22,7 +22,7 @@ public abstract class ProgrammingClasses {
         this.setCourseNumber(courseNumber);
     }
     
-    public final String getCourseName() {
+    public String getCourseName() {
         return courseName;
     }
 
@@ -30,7 +30,7 @@ public abstract class ProgrammingClasses {
         this.courseName = courseName;
     }
 
-    public final String getCourseNumber() {
+    public String getCourseNumber() {
         return courseNumber;
     }
 
@@ -43,7 +43,7 @@ public abstract class ProgrammingClasses {
         this.courseNumber = courseNumber;
     }
     
-     public final double getCredits() {
+     public  double getCredits() {
         return credits;
     }
      
